@@ -1,6 +1,14 @@
 <?php 
 
-verificarAutenticacao();
+// verificarAutenticacao();
+
+function estaLogado(){
+	if (isset($_SESSION['autenticado'])) {
+		return true;
+	} else {
+		return false;
+	}
+}
 
 function verificarAutenticacao(){
 	if (!isset($_SESSION['autenticado'])) {

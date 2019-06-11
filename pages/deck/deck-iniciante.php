@@ -21,7 +21,6 @@
 
 	$usuarios = json_decode($usuarios, true)
  ?>
- 	
 	<table class="table">
 	  <thead>
 	    <tr>

@@ -29,8 +29,8 @@ $link = $indexAPI.'/confere-usuario/'.$email.'/'.$password;
 
 	if (is_array($usuarios) & $usuarios != null) {
 		$_SESSION['autenticado'] = true;
-		header('Location: '.$indexPHP.'/pages/carta/index.php');
+		header('Location: '.$indexPHP.'/pages/painel/index.php');
 	} else {
-		header('Location: '.$indexPHP.'?login=fail');
+		header('Location: '.$indexPHP.'/login-page?login=fail');
 	}
  ?>

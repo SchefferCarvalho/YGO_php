@@ -22,6 +22,7 @@
 
 	$cartas = json_decode($cartas, true)
  ?>
+ 
 	<table class="table">
 	  <thead>
 	    <tr>
