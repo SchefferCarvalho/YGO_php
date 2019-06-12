@@ -1,11 +1,12 @@
 <?php include('../../config.php'); ?>
 <?php include('../../inc/header.php');?>
 
-<section>
+<section class="container mt-3">
+
 <?php $curl = curl_init();
 
 	curl_setopt_array($curl, array(
-	  CURLOPT_URL => $indexAPI.'/tb_carta',
+	  CURLOPT_URL => $indexAPI.'/tb_usuario',
 	  CURLOPT_RETURNTRANSFER => true,
 	  CURLOPT_TIMEOUT => 30,
 	  CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
@@ -23,12 +24,11 @@
  ?>
 	<table class="table">
 	  <thead>
-	    <tr>
-	      <th scope="col">Nome da Carta</th>
-	      <th scope="col">Ataque</th>
-	      <th scope="col">Defesa</th>
-
-	    </tr>
+	  	<tr>
+	  		<th scope="col">Email</th>
+	  		<th scope="col">Nome da Usuário</th>
+	  		<th scope="col">Nick da Usuário</th>
+	  	</tr>
 	  </thead>
 	  <tbody>
 	  	<?php 
@@ -36,9 +36,9 @@
 	  	if ($usuarios != '') :
 	  		foreach ($usuarios as $usuario) : ?>
 	  			<tr>
-	  			  <td><?=$usuario['nme_carta']?></td>
-	  			  <td><?=$usuario['ataque_carta']?></td>
-	  			  <td><?=$usuario['defesa_carta']?></td>
+	  			  <td><?=$usuario['email_usua']?></td>
+	  			  <td><?=$usuario['nme_usua']?></td>
+	  			  <td><?=$usuario['nicknme_usua']?></td>
 
 	  			</tr>
 	  		<?php endforeach;

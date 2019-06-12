@@ -34,10 +34,20 @@
 	          <a class="dropdown-item" href="<?=$indexPHP?>/pages/deck/deck-iniciante.php">Decks Iniciante</a>
 	          <a class="dropdown-item" href="<?=$indexPHP?>/pages/deck/index.php">Listar Decks</a>
 	          <?php if(estaLogado()){ ?>
-	          <a class="dropdown-item" href="#">Criar Deck</a>
+	          <a class="dropdown-item" href="<?=$indexPHP?>/pages/deck/create.php">Criar Deck</a>
 	      	  <?php } ?>
 	        </div>
 	        <div class="">
+
+	      </li>
+	      <li class="nav-item dropdown">
+	        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+	          Usuário
+	        </a>
+	        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+	          <a class="dropdown-item" href="<?=$indexPHP?>/pages/usuario/index.php">Listar Usuários</a>
+	          <a class="dropdown-item" href="<?=$indexPHP?>/pages/usuario/create.php">Cadastrar usuário</a>
+	        </div>
 
 	      </li>
 	    </ul>

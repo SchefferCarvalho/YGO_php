@@ -1,7 +1,7 @@
 <?php include('../../config.php'); ?>
 <?php include('../../inc/header.php');?>
 
-<section>
+<section class="container mt-3">
 <?php $curl = curl_init();
 
 	curl_setopt_array($curl, array(
