@@ -1,4 +1,4 @@
- <?php include('../../config.php'); ?>
+<?php include('../../config.php'); ?>
  <?php include('../../inc/header.php');?> 
   <div class="collapse navbar-collapse" id="navbarsExampleDefault">
     <ul class="navbar-nav mr-auto">

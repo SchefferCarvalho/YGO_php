@@ -1,8 +1,15 @@
 <?php include('../../config.php'); ?>
-<?php include('../../inc/header.php');?>
+<?php include('../../inc/header.php'); ?>
 
-<div class="mx-auto mt-5 mb-5"  style="width: 500px;">
+<div class="mx-auto mt-5 mb-5" style="width: 500px;">
   <form>
+    <th>
+      <b>
+        <font size="5">
+          Criar Deck
+        </font>
+      </b>
+    </th>
     <div class="form-group row">
       <label for="exampleInputEmail1">Nome do deck: </label>
       <input type="text" class="form-control" name="nome-deck" placeholder="Entre com o nome do Deck">
@@ -11,4 +18,4 @@
     <button type="submit" class="btn btn-primary">Criar</button>
   </form>
 </div>
-<?php include('../../inc/footer.php');?>
+<?php include('../../inc/footer.php'); ?>

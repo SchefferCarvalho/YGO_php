@@ -1,8 +1,15 @@
 <?php include('../../config.php'); ?>
-<?php include('../../inc/header.php');?>
+<?php include('../../inc/header.php'); ?>
 
 <form>
-  <div class="mx-auto mt-5 mb-5"  style="width: 500px;">
+  <div class="mx-auto mt-5 mb-5" style="width: 500px;">
+    <th>
+      <b>
+        <font size="5">
+          Cadastrar Usuário
+        </font>
+      </b>
+    </th>
     <div class="form-row">
       <div class="form-group col-md-6">
         <label for="inputEmail4">Email</label>
@@ -25,4 +32,4 @@
   </div>
 </form>
 
-<?php include('../../inc/footer.php');?>
+<?php include('../../inc/footer.php'); ?>
