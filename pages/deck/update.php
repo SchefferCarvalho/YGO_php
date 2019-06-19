@@ -39,6 +39,7 @@ $cartas = json_decode($cartas, true)
                         <li class="list-group-item">Level - </li>
                         <li class="list-group-item">Ataque - </li>
                         <li class="list-group-item">Defesa - </li>
+                        
                     </ul>
                     <p class="card-text mt-3">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                 </div>
