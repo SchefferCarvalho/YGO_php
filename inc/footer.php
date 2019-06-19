@@ -9,11 +9,11 @@
 		<p>
 			<div class="form-group row">
 				<div class="col-sm-10"> <b>Emails para contato:</b> </div>
-				<div class="col-sm-10"> arthur.scheffer@sempreceub.com</div>
-				<div class="col-sm-10"> danilo.soares@sempreceub.com</div>
-				<div class="col-sm-10"> nathaliamagi@sempreceub.com</div>
-				<div class="col-sm-10"> carolinecarnauba@sempreceub.com</div>
-				<div class="col-sm-10"> gs.silva@sempreceub.com</div>
+				<div class="col-sm-10"> arthur.scheffer@sempreceub.com - 
+					danilo.soares@sempreceub.com - 
+					nathaliamagi@sempreceub.com - 
+					carolinecarnauba@sempreceub.com - 
+					gs.silva@sempreceub.com</div>
 			</div>
 		</p>
 

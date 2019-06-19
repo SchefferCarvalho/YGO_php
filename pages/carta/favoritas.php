@@ -27,7 +27,7 @@
         <thead>
             <th>
                 <font size="5">
-                    Cartas Mais Favoritadas
+                    Cartas Favoritas
                 </font>
             </th>
             <tr>

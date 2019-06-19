@@ -22,7 +22,8 @@
 					</a>
 					<div class="dropdown-menu" aria-labelledby="navbarDropdown">
 						<a class="dropdown-item" href="<?= $indexPHP ?>/pages/carta/index.php">Listar Cartas</a>
-						<a class="dropdown-item" href="<?= $indexPHP ?>/pages/carta/list-favoritas.php">Cartas Favoritas</a>
+						<a class="dropdown-item" href="<?= $indexPHP ?>/pages/carta/list-favoritas.php">Cartas Mais Favoritadas</a>
+						<a class="dropdown-item" href="<?= $indexPHP ?>/pages/carta/favoritas.php">Favoritas</a>
 					</div>
 
 				</li>
@@ -36,6 +37,7 @@
 						<a class="dropdown-item" href="<?= $indexPHP ?>/pages/deck/index.php">Listar Decks</a>
 						<?php if (estaLogado()) { ?>
 							<a class="dropdown-item" href="<?= $indexPHP ?>/pages/deck/create.php">Criar Deck</a>
+							<a class="dropdown-item" href="<?= $indexPHP ?>/pages/deck/update.php">Editar Deck</a>
 						<?php } ?>
 					</div>
 					<div class="">
